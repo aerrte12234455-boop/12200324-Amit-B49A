@@ -1,0 +1,43 @@
+{
+  "name": "admindashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mui/material": "^5.15.10",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/x-data-grid": "^6.20.1",
+    "axios": "^1.3.6",
+    "firebase": "^8.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.0.9",
+    "web-vitals": "^1.0.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "build": "cross-env BUILD_PATH=../api/admin react-scripts build",
+    "test": "react-scripts test --detectOpenHandles --forceExit",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1",
+    "cross-env": "^7.0.3"
+  }
+}
